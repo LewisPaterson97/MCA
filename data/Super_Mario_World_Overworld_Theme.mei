@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>Super Mario World Overworld Theme</title>
+            </titleStmt>
+            <pubStmt></pubStmt>
+        </fileDesc>
+        <encodingDesc xml:id="encodingdesc-0000001028866434">
+            <appInfo xml:id="appinfo-0000000066476886">
+                <application xml:id="application-0000000350259630" isodate="2018-10-06T14:25:04" version="2.0.0-dev-7a2a5bf">
+                    <name xml:id="name-0000000016170018">Verovio</name>
+                    <p xml:id="p-0000001106635929">Transcoded from MusicXML</p>
+                </application>
+            </appInfo>
+        </encodingDesc>
+    </meiHead>
+    <music>
+        <body>
+            <mdiv xml:id="mdiv-0000001479528067">
+                <score xml:id="score-0000001879757556">
+                    <scoreDef xml:id="scoredef-0000000470041624">
+                        <staffGrp xml:id="staffgrp-0000002018939115">
+                            <staffGrp xml:id="staffgrp-0000002070195155" symbol="brace" barthru="true">
+                                <staffDef xml:id="staffdef-0000000159262174" clef.shape="G" clef.line="2" key.sig="1f" meter.count="4" meter.unit="4" n="1" lines="5" />
+                                <staffDef xml:id="staffdef-0000000928684623" clef.shape="F" clef.line="4" key.sig="1f" meter.count="4" meter.unit="4" n="2" lines="5" />
+                                <label xml:id="label-0000001202570288">Piano</label>
+                                <labelAbbr xml:id="labelAbbr-0000000956558651">Pno.</labelAbbr>
+                                <instrDef xml:id="instrdef-0000000235895307" midi.channel="0" midi.instrnum="0" midi.volume="78.00%" />
+                            </staffGrp>
+                        </staffGrp>
+                    </scoreDef>
+                    <section xml:id="section-0000000477110978">
+                        <pb xml:id="pb-0000001996902129" />
+                        <measure xml:id="measure-0000001909559804" n="1">
+                            <staff xml:id="staff-0000000589577955" n="1">
+                                <layer xml:id="layer-0000001558422334" n="1">
+                                    <note xml:id="note-0000001584834018" dur="4" oct="5" pname="d" stem.dir="down" />
+                                    <beam xml:id="beam-0000000526908538">
+                                        <note xml:id="note-0000001405370310" dur="8" oct="4" pname="b" stem.dir="up" accid.ges="f" />
+                                        <note xml:id="note-0000000964184930" dur="8" oct="4" pname="f" stem.dir="up" />
+                                    </beam>
+                                    <beam xml:id="beam-0000001274057244">
+                                        <note xml:id="note-0000000202534087" dur="8" oct="4" pname="e" stem.dir="up" />
+                                        <note xml:id="note-0000000335947735" dur="8" oct="4" pname="f" stem.dir="up" />
+                                        <note xml:id="note-0000000272379297" dur="8" oct="4" pname="g" stem.dir="up" />
+                                        <note xml:id="note-0000000075281382" dur="8" oct="4" pname="g" stem.dir="up" />
+                                    </beam>
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000000731737766" n="2">
+                                <layer xml:id="layer-0000001840979872" n="5">
+                                    <mRest xml:id="mrest-0000001744051122" />
+                                </layer>
+                            </staff>
+                            <tie xml:id="tie-0000001520879093" startid="#note-0000000272379297" endid="#note-0000000075281382" />
+                        </measure>
+                        <measure xml:id="measure-0000002038176520" n="2">
+                            <staff xml:id="staff-0000000394762424" n="1">
+                                <layer xml:id="layer-0000000210204894" n="1">
+                                    <chord xml:id="chord-0000001990854993" dur="8" stem.dir="up">
+                                        <note xml:id="note-0000002017469084" oct="4" pname="f" />
+                                        <note xml:id="note-0000001422488069" oct="4" pname="a" />
+                                    </chord>
+                                    <!-- rest (duration 8) was here originally -->
+                                    <beam xml:id="beam-0000001165495734">
+                                        <chord xml:id="chord-0000001210292010" dur="8" stem.dir="up">
+                                            <note xml:id="note-0000000168358103" oct="4" pname="f" />
+                                            <note xml:id="note-0000001923357949" oct="4" pname="a" />
+                                        </chord>
+                                        <chord xml:id="chord-0000001545161235" dur="8" stem.dir="up">
+                                            <note xml:id="note-0000001928829283" oct="4" pname="f" />
+                                            <note xml:id="note-0000001822922234" oct="4" pname="a" />
+                                        </chord>
+                                    </beam>
+                                    <chord xml:id="chord-0000000031403887" dur="8" stem.dir="up">
+                                        <note xml:id="note-0000001151160578" oct="4" pname="f" />
+                                        <note xml:id="note-0000000629965851" oct="4" pname="a" />
+                                    </chord>
+                                    <!-- rest (duration 8) was here originally -->
+                                    <beam xml:id="beam-0000001883132759">
+                                        <chord xml:id="chord-0000001484183318" dur="8" stem.dir="up">
+                                            <note xml:id="note-0000000748890623" oct="4" pname="f" />
+                                            <note xml:id="note-0000002117390388" oct="4" pname="a" />
+                                        </chord>
+                                        <chord xml:id="chord-0000002146654468" dur="8" stem.dir="up">
+                                            <note xml:id="note-0000000324798265" oct="4" pname="f" />
+                                            <note xml:id="note-0000000119255826" oct="4" pname="a" />
+                                        </chord>
+                                    </beam>
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001353715823" n="2">
+                                <layer xml:id="layer-0000000204700991" n="5">
+                                    <note xml:id="note-0000000366648884" dur="4" oct="2" pname="f" stem.dir="up" />
+                                    <!-- rest (duration 4) was here originally -->
+                                    <note xml:id="note-0000001215111117" dur="4" oct="2" pname="d" stem.dir="up" />
+                                    <!-- rest (duration 4) was here originally -->
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000000248880488" n="3">
+                            <staff xml:id="staff-0000002093327879" n="1">
+                                <layer xml:id="layer-0000001667653180" n="1">
+                                    <chord xml:id="chord-0000000242393184" dur="8" stem.dir="up">
+                                        <note xml:id="note-0000000074212687" oct="4" pname="f" />
+                                        <note xml:id="note-0000001411770019" oct="4" pname="a" />
+                                    </chord>
+                                    <!-- rest (duration 8) was here originally -->
+                                    <beam xml:id="beam-0000001152411794">
+                                        <chord xml:id="chord-0000000046028112" dur="8" stem.dir="up">
+                                            <note xml:id="note-0000001921811296" oct="4" pname="f" />
+                                            <note xml:id="note-0000001341545563" oct="4" pname="a" />
+                                        </chord>
+                                        <chord xml:id="chord-0000001633131066" dur="8" stem.dir="up">
+                                            <note xml:id="note-0000001438249158" oct="4" pname="f" />
+                                            <note xml:id="note-0000000566053972" oct="4" pname="a" />
+                                        </chord>
+                                    </beam>
+                                    <chord xml:id="chord-0000001636014387" dur="8" stem.dir="up">
+                                        <note xml:id="note-0000000272482141" oct="4" pname="f" />
+                                        <note xml:id="note-0000000101200812" oct="4" pname="a">
+                                            <accid xml:id="accid-0000000721761032" accid="s" accid.ges="s" /> <!-- accid and accid.ges originally "f" -->
+                                        </note>
+                                    </chord>
+                                    <!-- rest (duration 8) was here originally -->
+                                    <beam xml:id="beam-0000002049759883">
+                                        <chord xml:id="chord-0000001953582268" dur="8" stem.dir="up">
+                                            <note xml:id="note-0000000868963216" oct="4" pname="f" />
+                                            <note xml:id="note-0000001285842624" oct="4" pname="a">
+                                                <accid xml:id="accid-0000001474961819" accid="n" />
+                                            </note>
+                                        </chord>
+                                        <chord xml:id="chord-0000002110328463" dur="8" stem.dir="up">
+                                            <note xml:id="note-0000000688511372" oct="4" pname="f" />
+                                            <note xml:id="note-0000001364133031" oct="4" pname="a" />
+                                        </chord>
+                                    </beam>
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001059493368" n="2">
+                                <layer xml:id="layer-0000001707290313" n="5">
+                                    <note xml:id="note-0000000122568319" dur="4" oct="2" pname="g" stem.dir="up" />
+                                    <!-- rest (duration 4) was here originally -->
+                                    <note xml:id="note-0000000374724744" dur="4" oct="2" pname="c" stem.dir="up" />
+                                    <!-- rest (duration 4) was here originally -->
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000001843183730" n="4">
+                            <staff xml:id="staff-0000000088570237" n="1">
+                                <layer xml:id="layer-0000001087517442" n="1">
+                                    <chord xml:id="chord-0000001018879576" dur="8" stem.dir="up">
+                                        <note xml:id="note-0000000812774240" oct="4" pname="f" />
+                                        <note xml:id="note-0000002041996846" oct="4" pname="a" />
+                                    </chord>
+                                    <!-- rest (duration 8) was here originally -->
+                                    <beam xml:id="beam-0000001253547150">
+                                        <chord xml:id="chord-0000001618096308" dur="8" stem.dir="up">
+                                            <note xml:id="note-0000002141845405" oct="4" pname="f" />
+                                            <note xml:id="note-0000001527740284" oct="4" pname="a" />
+                                        </chord>
+                                        <chord xml:id="chord-0000000827373700" dur="8" stem.dir="up">
+                                            <note xml:id="note-0000001995375323" oct="4" pname="f" />
+                                            <note xml:id="note-0000000394811818" oct="4" pname="a" />
+                                        </chord>
+                                    </beam>
+                                    <chord xml:id="chord-0000000116188666" dur="8" stem.dir="up">
+                                        <note xml:id="note-0000001574966419" oct="4" pname="f" />
+                                        <note xml:id="note-0000000709529769" oct="4" pname="a" />
+                                    </chord>
+                                    <!-- rest (duration 8) was here originally -->
+                                    <beam xml:id="beam-0000001178167261">
+                                        <chord xml:id="chord-0000001830654557" dur="8" stem.dir="up">
+                                            <note xml:id="note-0000001898281910" oct="4" pname="f" />
+                                            <note xml:id="note-0000000056035867" oct="4" pname="a" />
+                                        </chord>
+                                        <chord xml:id="chord-0000000550416882" dur="8" stem.dir="up">
+                                            <note xml:id="note-0000000186425920" oct="4" pname="f" />
+                                            <note xml:id="note-0000001961095336" oct="4" pname="a" />
+                                        </chord>
+                                    </beam>
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000000116764139" n="2">
+                                <layer xml:id="layer-0000000979519063" n="5">
+                                    <note xml:id="note-0000000587730368" dur="4" oct="2" pname="f" stem.dir="up" />
+                                    <!-- rest (duration 4) was here originally -->
+                                    <note xml:id="note-0000000758541707" dur="4" oct="2" pname="d" stem.dir="up" />
+                                    <!-- rest (duration 4) was here originally -->
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000001480690374" n="5">
+                            <staff xml:id="staff-0000000960999356" n="1">
+                                <layer xml:id="layer-0000001877393048" n="1">
+                                    <chord xml:id="chord-0000000758125906" dur="8" stem.dir="up">
+                                        <note xml:id="note-0000000350251870" oct="4" pname="f" />
+                                        <note xml:id="note-0000001958775460" oct="4" pname="a" />
+                                    </chord>
+                                    <chord xml:id="chord-0000000990571517" dur="4" stem.dir="up">
+                                        <note xml:id="note-0000000473246336" oct="4" pname="f" />
+                                        <note xml:id="note-0000001071504017" oct="4" pname="a">
+                                            <accid xml:id="accid-0000000062240862" accid="f" accid.ges="f" />
+                                        </note>
+                                    </chord>
+                                    <!-- rest (duration 8) was here originally -->
+                                    <!-- rest (duration 2) was here originally -->
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001868014610" n="2">
+                                <layer xml:id="layer-0000001429008371" n="5">
+                                    <note xml:id="note-0000000210621172" dur="8" oct="2" pname="g" stem.dir="up" />
+                                    <note xml:id="note-0000001658212756" dots="1" dur="4" oct="2" pname="c" stem.dir="up" />
+                                    <!-- rest (duration 2) was here originally -->
+                                </layer>
+                            </staff>
+                        </measure>
+                        <sb xml:id="sb-0000001090898276" />
+                        <measure xml:id="measure-0000002064639625" n="6">
+                            <staff xml:id="staff-0000001366578339" n="1">
+                                <layer xml:id="layer-0000001388590376" n="1">
+                                    <mRest xml:id="mrest-0000000729972411" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001912960921" n="2">
+                                <layer xml:id="layer-0000000752220553" n="5">
+                                    <mRest xml:id="mrest-0000001088710350" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000001743831859" n="7">
+                            <staff xml:id="staff-0000001077089612" n="1">
+                                <layer xml:id="layer-0000000595888115" n="1">
+                                    <mRest xml:id="mrest-0000001909272879" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000000323139607" n="2">
+                                <layer xml:id="layer-0000001592814869" n="5">
+                                    <mRest xml:id="mrest-0000000806091006" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000001026921512" n="8">
+                            <staff xml:id="staff-0000001834916038" n="1">
+                                <layer xml:id="layer-0000001025123711" n="1">
+                                    <mRest xml:id="mrest-0000001046173433" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001861151905" n="2">
+                                <layer xml:id="layer-0000000973756347" n="5">
+                                    <mRest xml:id="mrest-0000001351111108" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000000637640389" n="9">
+                            <staff xml:id="staff-0000001286992665" n="1">
+                                <layer xml:id="layer-0000002008120878" n="1">
+                                    <mRest xml:id="mrest-0000000125588146" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000000109983589" n="2">
+                                <layer xml:id="layer-0000000246231300" n="5">
+                                    <mRest xml:id="mrest-0000000937532759" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000002050702068" n="10">
+                            <staff xml:id="staff-0000000336230119" n="1">
+                                <layer xml:id="layer-0000001904662576" n="1">
+                                    <mRest xml:id="mrest-0000000774017023" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001855675088" n="2">
+                                <layer xml:id="layer-0000000401633703" n="5">
+                                    <mRest xml:id="mrest-0000001133297096" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000000170020628" n="11">
+                            <staff xml:id="staff-0000001694730330" n="1">
+                                <layer xml:id="layer-0000001660691943" n="1">
+                                    <mRest xml:id="mrest-0000001070988136" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001263871547" n="2">
+                                <layer xml:id="layer-0000000759521162" n="5">
+                                    <mRest xml:id="mrest-0000002146003915" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000002013444806" n="12">
+                            <staff xml:id="staff-0000000012712587" n="1">
+                                <layer xml:id="layer-0000001197205315" n="1">
+                                    <mRest xml:id="mrest-0000001091010076" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000000295289862" n="2">
+                                <layer xml:id="layer-0000001621444979" n="5">
+                                    <mRest xml:id="mrest-0000000998369731" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000000635341699" n="13">
+                            <staff xml:id="staff-0000001163635273" n="1">
+                                <layer xml:id="layer-0000001111864380" n="1">
+                                    <mRest xml:id="mrest-0000002118282789" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001304951223" n="2">
+                                <layer xml:id="layer-0000001477821584" n="5">
+                                    <mRest xml:id="mrest-0000000676914743" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000000312415716" n="14">
+                            <staff xml:id="staff-0000001767366262" n="1">
+                                <layer xml:id="layer-0000000271935916" n="1">
+                                    <mRest xml:id="mrest-0000000179864068" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001790164024" n="2">
+                                <layer xml:id="layer-0000001850281320" n="5">
+                                    <mRest xml:id="mrest-0000001922216771" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000001240845354" n="15">
+                            <staff xml:id="staff-0000000132495335" n="1">
+                                <layer xml:id="layer-0000000548864186" n="1">
+                                    <mRest xml:id="mrest-0000000429975397" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000000378419879" n="2">
+                                <layer xml:id="layer-0000002128030882" n="5">
+                                    <mRest xml:id="mrest-0000001451505060" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000000859856909" n="16">
+                            <staff xml:id="staff-0000001833482088" n="1">
+                                <layer xml:id="layer-0000001436591822" n="1">
+                                    <mRest xml:id="mrest-0000000932912704" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001988425520" n="2">
+                                <layer xml:id="layer-0000000260028471" n="5">
+                                    <mRest xml:id="mrest-0000000140132464" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000001874238705" n="17">
+                            <staff xml:id="staff-0000002091485951" n="1">
+                                <layer xml:id="layer-0000000880131532" n="1">
+                                    <mRest xml:id="mrest-0000000245919074" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000000271549211" n="2">
+                                <layer xml:id="layer-0000001940279195" n="5">
+                                    <mRest xml:id="mrest-0000001685099461" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000001434717551" n="18">
+                            <staff xml:id="staff-0000001268949006" n="1">
+                                <layer xml:id="layer-0000002051104402" n="1">
+                                    <mRest xml:id="mrest-0000000478050011" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000000094099439" n="2">
+                                <layer xml:id="layer-0000001401237284" n="5">
+                                    <mRest xml:id="mrest-0000000477575388" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000002039997229" n="19">
+                            <staff xml:id="staff-0000000026992767" n="1">
+                                <layer xml:id="layer-0000000397652035" n="1">
+                                    <mRest xml:id="mrest-0000001251607218" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001040303853" n="2">
+                                <layer xml:id="layer-0000000441797830" n="5">
+                                    <mRest xml:id="mrest-0000001901263676" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000000587992531" n="20">
+                            <staff xml:id="staff-0000001488695922" n="1">
+                                <layer xml:id="layer-0000001690860604" n="1">
+                                    <mRest xml:id="mrest-0000000811130636" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000000367413498" n="2">
+                                <layer xml:id="layer-0000000706112726" n="5">
+                                    <mRest xml:id="mrest-0000000139977023" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000000357448613" n="21">
+                            <staff xml:id="staff-0000000973524515" n="1">
+                                <layer xml:id="layer-0000000382415958" n="1">
+                                    <mRest xml:id="mrest-0000001461966341" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001931443795" n="2">
+                                <layer xml:id="layer-0000001994963941" n="5">
+                                    <mRest xml:id="mrest-0000000141520022" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000001556664370" n="22">
+                            <staff xml:id="staff-0000000230113567" n="1">
+                                <layer xml:id="layer-0000001246806362" n="1">
+                                    <mRest xml:id="mrest-0000000216842889" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000000130248793" n="2">
+                                <layer xml:id="layer-0000000366670259" n="5">
+                                    <mRest xml:id="mrest-0000001810844402" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <sb xml:id="sb-0000002099217728" />
+                        <measure xml:id="measure-0000001020902017" n="23">
+                            <staff xml:id="staff-0000001267836985" n="1">
+                                <layer xml:id="layer-0000000193254435" n="1">
+                                    <mRest xml:id="mrest-0000000981944192" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001387088385" n="2">
+                                <layer xml:id="layer-0000001675256868" n="5">
+                                    <mRest xml:id="mrest-0000001773575320" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000001040483640" n="24">
+                            <staff xml:id="staff-0000002030876578" n="1">
+                                <layer xml:id="layer-0000000633884669" n="1">
+                                    <mRest xml:id="mrest-0000000714405028" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000002092355763" n="2">
+                                <layer xml:id="layer-0000001235849031" n="5">
+                                    <mRest xml:id="mrest-0000001892376767" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000001708613749" n="25">
+                            <staff xml:id="staff-0000001375593222" n="1">
+                                <layer xml:id="layer-0000001630351698" n="1">
+                                    <mRest xml:id="mrest-0000001311830326" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000000777212463" n="2">
+                                <layer xml:id="layer-0000001842589622" n="5">
+                                    <mRest xml:id="mrest-0000001155073596" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000000048949494" n="26">
+                            <staff xml:id="staff-0000001894169795" n="1">
+                                <layer xml:id="layer-0000001933162247" n="1">
+                                    <mRest xml:id="mrest-0000001027410306" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000000755606383" n="2">
+                                <layer xml:id="layer-0000000829558378" n="5">
+                                    <mRest xml:id="mrest-0000001229204771" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000000860433626" n="27">
+                            <staff xml:id="staff-0000001120543058" n="1">
+                                <layer xml:id="layer-0000002123913078" n="1">
+                                    <mRest xml:id="mrest-0000000045480942" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000000007541248" n="2">
+                                <layer xml:id="layer-0000001507157661" n="5">
+                                    <mRest xml:id="mrest-0000000113722652" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000001625781180" n="28">
+                            <staff xml:id="staff-0000001429294941" n="1">
+                                <layer xml:id="layer-0000000881618794" n="1">
+                                    <mRest xml:id="mrest-0000001051561034" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001160981772" n="2">
+                                <layer xml:id="layer-0000001559681283" n="5">
+                                    <mRest xml:id="mrest-0000001074783096" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000001836590434" n="29">
+                            <staff xml:id="staff-0000000598536941" n="1">
+                                <layer xml:id="layer-0000000103943275" n="1">
+                                    <mRest xml:id="mrest-0000000597019793" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001459497795" n="2">
+                                <layer xml:id="layer-0000001574751008" n="5">
+                                    <mRest xml:id="mrest-0000001461608383" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000001591406396" n="30">
+                            <staff xml:id="staff-0000000639098758" n="1">
+                                <layer xml:id="layer-0000000249574372" n="1">
+                                    <mRest xml:id="mrest-0000000199998939" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000002125492604" n="2">
+                                <layer xml:id="layer-0000001908230964" n="5">
+                                    <mRest xml:id="mrest-0000001364212471" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000000106138772" n="31">
+                            <staff xml:id="staff-0000002019664556" n="1">
+                                <layer xml:id="layer-0000000056125010" n="1">
+                                    <mRest xml:id="mrest-0000001443711997" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001885499230" n="2">
+                                <layer xml:id="layer-0000001199718067" n="5">
+                                    <mRest xml:id="mrest-0000001906381981" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-0000000043393535" right="end" n="32">
+                            <staff xml:id="staff-0000001551870081" n="1">
+                                <layer xml:id="layer-0000001922516881" n="1">
+                                    <mRest xml:id="mrest-0000000959266301" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000000293939693" n="2">
+                                <layer xml:id="layer-0000001699637771" n="5">
+                                    <mRest xml:id="mrest-0000000325139015" />
+                                </layer>
+                            </staff>
+                        </measure>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>
