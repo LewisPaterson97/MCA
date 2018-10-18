@@ -96,7 +96,7 @@
                             <staff xml:id="staff-0000001353715823" n="2">
                                 <layer xml:id="layer-0000000204700991" n="5">
                                     <note xml:id="note-0000000366648884" dur="4" oct="2" pname="f" stem.dir="up" />
-                                    <!-- rest (duration 4) was here originally -->
+                                    <rest dur="8" />
                                     <note xml:id="note-0000001215111117" dur="4" oct="2" pname="d" stem.dir="up" />
                                     <!-- rest (duration 4) was here originally -->
                                 </layer>
@@ -144,7 +144,7 @@
                             <staff xml:id="staff-0000001059493368" n="2">
                                 <layer xml:id="layer-0000001707290313" n="5">
                                     <note xml:id="note-0000000122568319" dur="4" oct="2" pname="g" stem.dir="up" />
-                                    <!-- rest (duration 4) was here originally -->
+                                    <rest dur="8" />
                                     <note xml:id="note-0000000374724744" dur="4" oct="2" pname="c" stem.dir="up" />
                                     <!-- rest (duration 4) was here originally -->
                                 </layer>
@@ -188,7 +188,7 @@
                             <staff xml:id="staff-0000000116764139" n="2">
                                 <layer xml:id="layer-0000000979519063" n="5">
                                     <note xml:id="note-0000000587730368" dur="4" oct="2" pname="f" stem.dir="up" />
-                                    <!-- rest (duration 4) was here originally -->
+                                    <rest dur="8" />
                                     <note xml:id="note-0000000758541707" dur="4" oct="2" pname="d" stem.dir="up" />
                                     <!-- rest (duration 4) was here originally -->
                                 </layer>
