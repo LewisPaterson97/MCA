@@ -1,8 +1,10 @@
 /* Add your own CSS rules here */
 h1 {
   text-align: center;
-  background-color: grey;
-  border: 5% solid red;
+  background-color: cyan;
+  border-style: dotted;
+  border-color: green;
+  border-width: 5%; 
 }
 
 g[class='note'] {
