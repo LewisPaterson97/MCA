@@ -3,11 +3,84 @@
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
-        <fileDesc>
-            <titleStmt>
-                <title>Super Mario World Overworld Theme</title>
+        <fileDesc xml:id="smw-fd">
+            <titleStmt xml:id="fd-ts">
+                <title xml:id="t-1">Super Mario World Overworld Theme</title>
+                <title xml:id="t-2" type="subtitle">
+                    <identifier>MuseScore encoded version of "Overworld BGM" from Super Mario World</identifier>
+                </title>
+                <composer xml:id="c-1">Koji Kondo</composer>
+                <respStmt>
+                    <resp>Encoded by Lewis Paterson as part of Music Analytics project</resp>
+                    <persName>Lewis Paterson</persName>
+                    <corpName>University of Glasgow</corpName>
+                </respStmt>
             </titleStmt>
-            <pubStmt></pubStmt>
+            <editionStmt>
+                <edition>Derivative version of Maestro Aamir's encoded MuseScore transcription</edition>
+                <respStmt>
+                    <resp>Lewis Paterson transcribing and modifying Maestro Aamir's version</resp>
+                    <persName>Lewis Paterson</persName>
+                </respStmt>
+            </editionStmt>
+            <extent unit="kilobytes">74.3</extent>
+            <pubStmt>
+                <publisher>
+                    <corpName>University of Glasgow</corpName>
+                </publisher>
+                <address>
+                    <addrLine>
+                        <geogName>Glasgow</geogName>
+                    </addrLine>
+                    <addrLine>
+                        <geogName>Scotland</geogName>
+                    </addrLine>
+                    <addrLine>
+                        <geogName>United Kingdom</geogName>
+                    </addrLine>
+                </address>
+                <distributor>Lewis Paterson</distributor>
+                <availability>
+                    <useRestrict authURI="https://creativecommons.org/licenses/by-nc-sa/4.0/" authority="Creative Commons”>Creative Commons Attribution 4.0 International, CC BY-NCSA">
+                    Creative Commons Attribution 4.0 International, CC BY-NCSA
+                    </useRestrict>
+                </availability>
+                <respStmt>
+                    <resp>Published privately online as part of Music Analytics project at the University of Glasgow</resp>
+                    <persName>Lewis Paterson</persName>
+                    <persName>Timothy Duguid</persName>
+                </respStmt>
+            </pubStmt>
+            <seriesStmt>
+                <title>Music Analytics Project - Encoded Music of Mario Game Themes</title>
+                <editor>Lewis Paterson</editor>
+                <contents>
+                    <contentItem>Super Mario Bros Theme</contentItem>
+                    <contentItem>Super Mario World Overworld Theme</contentItem>
+                    <contentItem>Super Mario 64 Main Theme</contentItem>
+                </contents>
+            </seriesStmt>
+            <notesStmt>
+                <annot>The original Maestro Aamir transcription was acquired using the search feature on the MuseScore website</annot>
+            </notesStmt>
+            <sourceDesc>
+                <source>
+                    <titleStmt>
+                        <title authURI="https://vgmdb.net/album/533" authority="VGMdb">
+                            Overworld BGM</title>
+                        <editor authURI="https://musescore.com/thenewmaestro/scores/51866">
+                            Maestro Aamir</editor>
+                        <composer authURI="https://vgmdb.net/album/533" authority="VGMdb">
+                            Koji Kondo</composer>
+                        <arranger authURI="https://vgmdb.net/album/533" authority="VGMdb">
+                            Soichi Noriki
+                        </arranger>
+                    </titleStmt>
+                    <pubStmt>
+                        <distributor authURI="https://musescore.com/sheetmusic">MuseScore</distributor>
+                    </pubStmt>
+                </source>
+            </sourceDesc>
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000001462017511">
             <appInfo xml:id="appinfo-0000000698407135">
@@ -17,6 +90,17 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        <editorialDecl>
+            
+        </editorialDecl>
+        <revisionDesc>
+            <change>
+                <changeDesc>
+                    <p>Added multiple details to meiHead</p>
+                </changeDesc>
+                <date>2nd November 2018</date>
+            </change>
+        </revisionDesc>
     </meiHead>
     <music>
         <body>
@@ -909,91 +993,6 @@
                                         <note xml:id="note-0000001032953943" dur="8" oct="2" pname="d" stem.dir="up" />
                                     </beam>
                                     <note xml:id="note-0000001099883876" dur="4" oct="2" pname="f" stem.dir="up" />
-                                </layer>
-                            </staff>
-                        </measure>
-                        <measure xml:id="measure-0000000266895132" n="26">
-                            <staff xml:id="staff-0000001163996359" n="1">
-                                <layer xml:id="layer-0000001172299763" n="1">
-                                    <mRest xml:id="mrest-0000000806519725" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-0000001077272223" n="2">
-                                <layer xml:id="layer-0000002018795373" n="5">
-                                    <mRest xml:id="mrest-0000000893752818" />
-                                </layer>
-                            </staff>
-                        </measure>
-                        <measure xml:id="measure-0000001580470971" n="27">
-                            <staff xml:id="staff-0000000909201649" n="1">
-                                <layer xml:id="layer-0000001143538891" n="1">
-                                    <mRest xml:id="mrest-0000001607861354" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-0000001188110423" n="2">
-                                <layer xml:id="layer-0000001397266589" n="5">
-                                    <mRest xml:id="mrest-0000001578440758" />
-                                </layer>
-                            </staff>
-                        </measure>
-                        <measure xml:id="measure-0000000779240474" n="28">
-                            <staff xml:id="staff-0000000483946172" n="1">
-                                <layer xml:id="layer-0000001110848682" n="1">
-                                    <mRest xml:id="mrest-0000000120327836" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-0000000332199768" n="2">
-                                <layer xml:id="layer-0000002036896369" n="5">
-                                    <mRest xml:id="mrest-0000000493375353" />
-                                </layer>
-                            </staff>
-                        </measure>
-                        <measure xml:id="measure-0000000950700344" n="29">
-                            <staff xml:id="staff-0000000126806820" n="1">
-                                <layer xml:id="layer-0000000382153916" n="1">
-                                    <mRest xml:id="mrest-0000001711594767" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-0000001019685882" n="2">
-                                <layer xml:id="layer-0000000216124997" n="5">
-                                    <mRest xml:id="mrest-0000001421700744" />
-                                </layer>
-                            </staff>
-                        </measure>
-                        <measure xml:id="measure-0000000234733055" n="30">
-                            <staff xml:id="staff-0000001844027159" n="1">
-                                <layer xml:id="layer-0000001420070712" n="1">
-                                    <mRest xml:id="mrest-0000000813670664" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-0000001628285328" n="2">
-                                <layer xml:id="layer-0000000518579725" n="5">
-                                    <mRest xml:id="mrest-0000001896641295" />
-                                </layer>
-                            </staff>
-                        </measure>
-                        <measure xml:id="measure-0000001664281239" n="31">
-                            <staff xml:id="staff-0000001881259973" n="1">
-                                <layer xml:id="layer-0000001313391958" n="1">
-                                    <mRest xml:id="mrest-0000001750433104" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-0000001462121353" n="2">
-                                <layer xml:id="layer-0000000653406594" n="5">
-                                    <mRest xml:id="mrest-0000000198064731" />
-                                </layer>
-                            </staff>
-                        </measure>
-                        <sb xml:id="sb-0000000094658585" />
-                        <measure xml:id="measure-0000000508164029" right="end" n="32">
-                            <staff xml:id="staff-0000002072833906" n="1">
-                                <layer xml:id="layer-0000000508201591" n="1">
-                                    <mRest xml:id="mrest-0000000149679085" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-0000001748753776" n="2">
-                                <layer xml:id="layer-0000001932749254" n="5">
-                                    <mRest xml:id="mrest-0000000966647241" />
                                 </layer>
                             </staff>
                         </measure>
