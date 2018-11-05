@@ -17,13 +17,13 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition>Derivative version of Maestro Aamir's encoded MuseScore transcription</edition>
+                <edition xml:id="edition">Derivative version of Maestro Aamir's encoded MuseScore transcription</edition>
                 <respStmt>
                     <resp>Lewis Paterson transcribing and modifying Maestro Aamir's version</resp>
                     <persName>Lewis Paterson</persName>
                 </respStmt>
             </editionStmt>
-            <extent unit="kilobytes">74.3</extent>
+            <extent xml:id="extent" unit="kilobytes">74.3</extent>
             <pubStmt>
                 <publisher>
                     <corpName>University of Glasgow</corpName>
@@ -53,7 +53,7 @@
             </pubStmt>
             <seriesStmt>
                 <title>Music Analytics Project - Encoded Music of Mario Game Themes</title>
-                <editor>Lewis Paterson</editor>
+                <editor xml:id="e-1">Lewis Paterson</editor>
                 <contents>
                     <contentItem>Super Mario Bros Theme</contentItem>
                     <contentItem>Super Mario World Overworld Theme</contentItem>
@@ -66,13 +66,13 @@
             <sourceDesc>
                 <source>
                     <titleStmt>
-                        <title authURI="https://vgmdb.net/album/533" authority="VGMdb">
+                        <title xml:id="t-3" authURI="https://vgmdb.net/album/533" authority="VGMdb">
                             Overworld BGM</title>
-                        <editor authURI="https://musescore.com/thenewmaestro/scores/51866">
+                        <editor xml:id="e-2" authURI="https://musescore.com/thenewmaestro/scores/51866">
                             Maestro Aamir</editor>
-                        <composer authURI="https://vgmdb.net/album/533" authority="VGMdb">
+                        <composer xml:id="c-2" authURI="https://vgmdb.net/album/533" authority="VGMdb">
                             Koji Kondo</composer>
-                        <arranger authURI="https://vgmdb.net/album/533" authority="VGMdb">
+                        <arranger xml:id="a-1" authURI="https://vgmdb.net/album/533" authority="VGMdb">
                             Soichi Noriki
                         </arranger>
                     </titleStmt>
