@@ -7,6 +7,14 @@ h1 {
   border-width: 5%; 
 }
 
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
 g[class='note'] {
   color: red;
 }
