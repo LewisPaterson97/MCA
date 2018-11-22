@@ -15,7 +15,7 @@ var defaultWidth = document.documentElement.clientWidth - 50
 options = {
     pageHeight: defaultHeight * 100 / zoom,
     pageWidth: defaultWidth * 100 / zoom,
-    scale: 50
+    scale: zoom
 }
 vrvToolkit.setOptions(options)
 
