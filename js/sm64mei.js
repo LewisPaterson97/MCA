@@ -20,4 +20,4 @@ options = {
 vrvToolkit.setOptions(options)
 
 /* Show the score */
-showScore('score', 'data/Super_Mario_World_Overworld_Theme.mei') // <-- CHANGE THIS TO YOUR FILE
+showScore('score', 'data/Super_Mario_64_Main_Theme.mei') // <-- CHANGE THIS TO YOUR FILE
