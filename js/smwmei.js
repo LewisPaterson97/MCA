@@ -4,7 +4,7 @@
 var vrvToolkit = new verovio.toolkit()
 
 /* Setup Verovio - adjust the options below */
-var zoom = 100
+var zoom = 60
 var content = document.getElementById('content')
 var contentHeight = 0
 if (content) {
@@ -15,7 +15,7 @@ var defaultWidth = document.documentElement.clientWidth - 50
 options = {
     pageHeight: defaultHeight * 100 / zoom,
     pageWidth: defaultWidth * 100 / zoom,
-    scale: zoom
+    scale: 50
 }
 vrvToolkit.setOptions(options)
 
