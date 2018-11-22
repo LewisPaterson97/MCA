@@ -19,6 +19,10 @@ table, th, td {
 	border: 1px solid black;
 }
 
+table {
+	width: 25%;
+}
+
 g[class='note'] {
   color: red;
 }
