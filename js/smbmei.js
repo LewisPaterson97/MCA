@@ -16,6 +16,7 @@ options = {
     pageHeight: defaultHeight * 100 / zoom,
     pageWidth: defaultWidth * 100 / zoom,
     scale: zoom
+	adjustPageHeight: true
 }
 vrvToolkit.setOptions(options)
 
