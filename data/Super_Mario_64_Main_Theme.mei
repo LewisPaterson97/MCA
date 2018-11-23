@@ -1061,7 +1061,7 @@
                                             <artic xml:id="artic-0000001140904162" artic="ten" />
                                         </note>
                                         <note xml:id="note-0000001647525681" dur="4" oct="5" pname="c" stem.dir="down" />
-                                        <rest xml:id="rest-0000001541112488" dur="4" />
+                                        <!-- <rest xml:id="rest-0000001541112488" dur="4" /> -->
                                     </tuplet>
                                 </layer>
                             </staff>
@@ -1069,7 +1069,7 @@
                                 <layer xml:id="layer-0000002114143915" n="5">
                                     <tuplet xml:id="tuplet-0000000329567368" num="3" numbase="2" bracket.visible="true">
                                         <note xml:id="note-0000000312379808" dots="1" dur="4" oct="2" pname="d" stem.dir="up" />
-                                        <rest xml:id="rest-0000000802650693" dur="8" />
+                                        <!-- <rest xml:id="rest-0000000802650693" dur="8" /> -->
                                         <note xml:id="note-0000001836245708" dots="1" dur="4" oct="2" pname="d" stem.dir="up" />
                                         <note xml:id="note-0000001302369834" dur="4" oct="2" pname="c" stem.dir="up">
                                             <artic xml:id="artic-0000000183279026" artic="ten" />

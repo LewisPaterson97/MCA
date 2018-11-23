@@ -200,7 +200,7 @@
                                                 <note xml:id="note-0000000049878814" oct="5" pname="g" />
                                             </chord>
                                         </beam>
-                                        <rest xml:id="rest-0000001652141094" dur="4" />
+                                        <!-- <rest xml:id="rest-0000001652141094" dur="4" /> -->
                                     </tuplet>
                                 </layer>
                             </staff>
@@ -215,7 +215,7 @@
                                             <note xml:id="note-0000001818175008" dur="8" oct="4" pname="d" stem.dir="down" />
                                             <note xml:id="note-0000001841954741" dur="8" oct="4" pname="e" stem.dir="down" />
                                         </beam>
-                                        <rest xml:id="rest-0000001311789346" dur="4" />
+                                        <!-- <rest xml:id="rest-0000001311789346" dur="4" /> -->
                                     </tuplet>
                                 </layer>
                             </staff>
@@ -995,7 +995,7 @@
                                                 <note xml:id="note-0000001767914083" oct="5" pname="g" />
                                             </chord>
                                         </beam>
-                                        <rest xml:id="rest-0000001340049793" dur="4" />
+                                        <!-- <rest xml:id="rest-0000001340049793" dur="4" /> -->
                                     </tuplet>
                                 </layer>
                             </staff>
@@ -1010,7 +1010,7 @@
                                             <note xml:id="note-0000001753725658" dur="8" oct="4" pname="d" stem.dir="down" />
                                             <note xml:id="note-0000001925117041" dur="8" oct="4" pname="e" stem.dir="down" />
                                         </beam>
-                                        <rest xml:id="rest-0000001673738074" dur="4" />
+                                        <!-- <rest xml:id="rest-0000001673738074" dur="4" /> -->
                                     </tuplet>
                                 </layer>
                             </staff>
@@ -1295,7 +1295,7 @@
                                             <note xml:id="note-0000000876140058" oct="4" pname="b" />
                                             <note xml:id="note-0000000317848614" oct="5" pname="d" />
                                         </chord>
-                                        <rest xml:id="rest-0000001921411406" dur="4" />
+                                        <!-- <rest xml:id="rest-0000001921411406" dur="4" /> -->
                                     </tuplet>
                                 </layer>
                             </staff>
@@ -1308,7 +1308,7 @@
                                         <note xml:id="note-0000000187104495" dur="4" oct="3" pname="g" stem.dir="down" />
                                         <note xml:id="note-0000000932973042" dur="4" oct="3" pname="a" stem.dir="down" />
                                         <note xml:id="note-0000001442224412" dur="4" oct="3" pname="b" stem.dir="down" />
-                                        <rest xml:id="rest-0000002036619647" dur="4" />
+                                        <!-- <rest xml:id="rest-0000002036619647" dur="4" /> -->
                                     </tuplet>
                                 </layer>
                             </staff>
