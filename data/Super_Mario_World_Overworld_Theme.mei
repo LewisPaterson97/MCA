@@ -12,18 +12,18 @@
                 <composer xml:id="c-1">Koji Kondo</composer>
                 <respStmt>
                     <resp>Encoded by Lewis Paterson as part of Music Analytics project</resp>
-                    <persName>Lewis Paterson</persName>
+                    <persName xml:id="resp-1">Lewis Paterson</persName>
                     <corpName>University of Glasgow</corpName>
                 </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition xml:id="edition">Derivative version of Maestro Aamir's encoded MuseScore transcription</edition>
                 <respStmt>
-                    <resp>Lewis Paterson transcribing and modifying Maestro Aamir's version</resp>
+                    <resp xml:id="resp-2">Lewis Paterson transcribing and modifying Maestro Aamir's version</resp>
                     <persName>Lewis Paterson</persName>
                 </respStmt>
             </editionStmt>
-            <extent xml:id="extent" unit="kilobytes">74.3</extent>
+            <extent xml:id="extent" unit="kilobytes">79</extent>
             <pubStmt>
                 <publisher>
                     <corpName>University of Glasgow</corpName>
@@ -41,14 +41,14 @@
                 </address>
                 <distributor>Lewis Paterson</distributor>
                 <availability>
-                    <useRestrict authURI="https://creativecommons.org/licenses/by-nc-sa/4.0/" authority="Creative Commons”>Creative Commons Attribution 4.0 International, CC BY-NCSA">
+                    <useRestrict xml:id="userestrict" authURI="https://creativecommons.org/licenses/by-nc-sa/4.0/" authority="Creative Commons”>Creative Commons Attribution 4.0 International, CC BY-NCSA">
                     Creative Commons Attribution 4.0 International, CC BY-NCSA
                     </useRestrict>
                 </availability>
                 <respStmt>
                     <resp>Published privately online as part of Music Analytics project at the University of Glasgow</resp>
-                    <persName>Lewis Paterson</persName>
-                    <persName>Timothy Duguid</persName>
+                    <persName xml:id="resp-3">Lewis Paterson</persName>
+                    <persName xml:id="resp-4">Timothy Duguid</persName>
                 </respStmt>
             </pubStmt>
             <seriesStmt>
@@ -77,7 +77,8 @@
                         </arranger>
                     </titleStmt>
                     <pubStmt>
-                        <distributor authURI="https://musescore.com/sheetmusic">MuseScore</distributor>
+                        <distributor type="Online distribution" authURI="https://musescore.com/sheetmusic">MuseScore</distributor>
+                        <distributor type="Original distribution" authURI="https://vgmdb.net/album/533">Warner-Pioneer</distributor>
                     </pubStmt>
                 </source>
             </sourceDesc>
@@ -90,11 +91,8 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        <editorialDecl>
-            
-        </editorialDecl>
         <revisionDesc>
-            <change>
+            <change resp="Lewis Paterson">
                 <changeDesc>
                     <p>Added multiple details to meiHead</p>
                 </changeDesc>
