@@ -2,70 +2,70 @@
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
-    <meiHead>
+    <meiHead xml:id="sm64-meihead">
         <fileDesc xml:id="sm64-fd">
             <titleStmt xml:id="fd-ts">
                 <title xml:id="t-1">Super Mario 64 Main Theme</title>
                 <title xml:id="t-2" type="subtitle">
-                    <identifier>MuseScore encoded version of "Main Theme" from Super Mario 64</identifier>
+                    <identifier xml:id="t-id">MuseScore encoded version of "Main Theme" from Super Mario 64</identifier>
                 </title>
                 <composer xml:id="c-1">Koji Kondo</composer>
-                <respStmt>
-                    <resp>Encoded by Lewis Paterson as part of Music Analytics project</resp>
+                <respStmt xml:id="fd-rs">
+                    <resp xml:id="rs-resp">Encoded by Lewis Paterson as part of Music Analytics project</resp>
                     <persName xml:id="resp-1">Lewis Paterson</persName>
-                    <corpName>University of Glasgow</corpName>
+                    <corpName xml:id="corpname">University of Glasgow</corpName>
                 </respStmt>
             </titleStmt>
-            <editionStmt>
+            <editionStmt xml:id="sm64-es">
                 <edition xml:id="edition">Derivative version of Cyrille Piano's encoded MuseScore transcription</edition>
-                <respStmt>
+                <respStmt xml:id="sm64-es-rs">
                     <resp xml:id="resp-2">Lewis Paterson transcribing and modifying Cyrille Piano's version</resp>
-                    <persName>Lewis Paterson</persName>
+                    <persName xml:id="pers-1">Lewis Paterson</persName>
                 </respStmt>
             </editionStmt>
             <extent xml:id="extent" unit="kilobytes">135</extent>
-            <pubStmt>
-                <publisher>
-                    <corpName>University of Glasgow</corpName>
+            <pubStmt xml:id="sm64-ps">
+                <publisher xml:id="pub">
+                    <corpName xml:id="corp">University of Glasgow</corpName>
                 </publisher>
-                <address>
-                    <addrLine>
-                        <geogName>Glasgow</geogName>
+                <address xml:id="address">
+                    <addrLine xml:id="add-line-1">
+                        <geogName xml:id="geog-1">Glasgow</geogName>
                     </addrLine>
-                    <addrLine>
-                        <geogName>Scotland</geogName>
+                    <addrLine xml:id="add-line-2">
+                        <geogName xml:id="geog-2">Scotland</geogName>
                     </addrLine>
-                    <addrLine>
-                        <geogName>United Kingdom</geogName>
+                    <addrLine xml:id="add-line-3">
+                        <geogName xml:id="geog-3">United Kingdom</geogName>
                     </addrLine>
                 </address>
-                <distributor>Lewis Paterson</distributor>
-                <availability>
+                <distributor xml:id="dist">Lewis Paterson</distributor>
+                <availability xml:id="availability">
                     <useRestrict xml:id="userestrict" authURI="https://creativecommons.org/licenses/by-nc-sa/4.0/" authority="Creative Commons”>Creative Commons Attribution 4.0 International, CC BY-NCSA">
                         Creative Commons Attribution 4.0 International, CC BY-NCSA
                     </useRestrict>
                 </availability>
-                <respStmt>
-                    <resp>Published privately online as part of Music Analytics project at the University of Glasgow</resp>
-                    <persName xml:id="resp-3">Lewis Paterson</persName>
-                    <persName xml:id="resp-4">Timothy Duguid</persName>
+                <respStmt xml:id="sm64-ps-rs">
+                    <resp xml:id="resp-3">Published privately online as part of Music Analytics project at the University of Glasgow</resp>
+                    <persName xml:id="resp-4">Lewis Paterson</persName>
+                    <persName xml:id="resp-5">Timothy Duguid</persName>
                 </respStmt>
             </pubStmt>
-            <seriesStmt>
-                <title>Music Analytics Project - Encoded Music of Mario Game Themes</title>
+            <seriesStmt xml:id="sm64-ss">
+                <title xml:id="ss-t">Music Analytics Project - Encoded Music of Mario Game Themes</title>
                 <editor xml:id="e-1">Lewis Paterson</editor>
-                <contents>
-                    <contentItem>Super Mario Bros Theme</contentItem>
-                    <contentItem>Super Mario World Overworld Theme</contentItem>
-                    <contentItem>Super Mario 64 Main Theme</contentItem>
+                <contents xml:id="ss-contents">
+                    <contentItem xml:id="content-1">Super Mario Bros Theme</contentItem>
+                    <contentItem xml:id="content-2">Super Mario World Overworld Theme</contentItem>
+                    <contentItem xml:id="content-3">Super Mario 64 Main Theme</contentItem>
                 </contents>
             </seriesStmt>
-            <notesStmt>
-                <annot>The original Cyrille Piano transcription was acquired using the search feature on the MuseScore website</annot>
+            <notesStmt xml:id="sm64-ns">
+                <annot xml:id="ns-annot-1">The original Cyrille Piano transcription was acquired using the search feature on the MuseScore website</annot>
             </notesStmt>
-            <sourceDesc>
-                <source>
-                    <titleStmt>
+            <sourceDesc xml:id="sm64-sd">
+                <source xml:id="source">
+                    <titleStmt xml:id="sd-ts">
                         <title xml:id="t-3" authURI="https://vgmdb.net/album/137" authority="VGMdb">
                             Super Mario 64 Main Theme</title>
                         <editor xml:id="e-2" authURI="https://musescore.com/user/3915846/scores/1076856">
@@ -73,9 +73,9 @@
                         <composer xml:id="c-2" authURI="https://vgmdb.net/album/137" authority="VGMdb">
                             Koji Kondo</composer>
                     </titleStmt>
-                    <pubStmt>
-                        <distributor type="Online distribution" authURI="https://musescore.com/sheetmusic">MuseScore</distributor>
-                        <distributor type="Original distribution" authURI="https://vgmdb.net/album/137">Pony Canyon</distributor>
+                    <pubStmt xml:id="sd-ps">
+                        <distributor xml:id="dis-1" type="Online distribution" authURI="https://musescore.com/sheetmusic">MuseScore</distributor>
+                        <distributor xml:id="dis-2" type="Original distribution" authURI="https://vgmdb.net/album/137">Pony Canyon</distributor>
                     </pubStmt>
                 </source>
             </sourceDesc>
@@ -88,12 +88,12 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        <revisionDesc>
-            <change resp="Lewis Paterson">
-                <changeDesc>
-                    <p>Added multiple details to meiHead</p>
+        <revisionDesc xml:id="sm64-rd">
+            <change xml:id="change-1" resp="Lewis Paterson">
+                <changeDesc xml:id="c1-cd">
+                    <p xml:id="c1-cd-p1">Added multiple details to meiHead</p>
                 </changeDesc>
-                <date>24th November 2018</date>
+                <date xml:id="c1-date">24th November 2018</date>
             </change>
         </revisionDesc>
     </meiHead>

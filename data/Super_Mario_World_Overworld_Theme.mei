@@ -2,70 +2,70 @@
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
-    <meiHead>
+    <meiHead xml:id="smw-meihead">
         <fileDesc xml:id="smw-fd">
             <titleStmt xml:id="fd-ts">
                 <title xml:id="t-1">Super Mario World Overworld Theme</title>
                 <title xml:id="t-2" type="subtitle">
-                    <identifier>MuseScore encoded version of "Overworld BGM" from Super Mario World</identifier>
+                    <identifier xml:id="t-id">MuseScore encoded version of "Overworld BGM" from Super Mario World</identifier>
                 </title>
                 <composer xml:id="c-1">Koji Kondo</composer>
-                <respStmt>
-                    <resp>Encoded by Lewis Paterson as part of Music Analytics project</resp>
+                <respStmt xml:id="fd-rs">
+                    <resp xml:id="rs-resp">Encoded by Lewis Paterson as part of Music Analytics project</resp>
                     <persName xml:id="resp-1">Lewis Paterson</persName>
-                    <corpName>University of Glasgow</corpName>
+                    <corpName xml:id="corpname">University of Glasgow</corpName>
                 </respStmt>
             </titleStmt>
-            <editionStmt>
+            <editionStmt xml:id="smw-es">
                 <edition xml:id="edition">Derivative version of Maestro Aamir's encoded MuseScore transcription</edition>
-                <respStmt>
+                <respStmt xml:id="smw-es-rs">
                     <resp xml:id="resp-2">Lewis Paterson transcribing and modifying Maestro Aamir's version</resp>
-                    <persName>Lewis Paterson</persName>
+                    <persName xml:id="pers-1">Lewis Paterson</persName>
                 </respStmt>
             </editionStmt>
             <extent xml:id="extent" unit="kilobytes">79</extent>
-            <pubStmt>
-                <publisher>
-                    <corpName>University of Glasgow</corpName>
+            <pubStmt xml:id="smw-ps">
+                <publisher xml:id="pub">
+                    <corpName xml:id="corp">University of Glasgow</corpName>
                 </publisher>
-                <address>
-                    <addrLine>
-                        <geogName>Glasgow</geogName>
+                <address xml:id="address">
+                    <addrLine xml:id="add-line-1">
+                        <geogName xml:id="geog-1">Glasgow</geogName>
                     </addrLine>
-                    <addrLine>
-                        <geogName>Scotland</geogName>
+                    <addrLine xml:id="add-line-2">
+                        <geogName xml:id="geog-2">Scotland</geogName>
                     </addrLine>
-                    <addrLine>
-                        <geogName>United Kingdom</geogName>
+                    <addrLine xml:id="add-line-3">
+                        <geogName xml:id="geog-3">United Kingdom</geogName>
                     </addrLine>
                 </address>
-                <distributor>Lewis Paterson</distributor>
-                <availability>
+                <distributor xml:id="dist">Lewis Paterson</distributor>
+                <availability xml:id="availability">
                     <useRestrict xml:id="userestrict" authURI="https://creativecommons.org/licenses/by-nc-sa/4.0/" authority="Creative Commons”>Creative Commons Attribution 4.0 International, CC BY-NCSA">
                     Creative Commons Attribution 4.0 International, CC BY-NCSA
                     </useRestrict>
                 </availability>
-                <respStmt>
-                    <resp>Published privately online as part of Music Analytics project at the University of Glasgow</resp>
-                    <persName xml:id="resp-3">Lewis Paterson</persName>
-                    <persName xml:id="resp-4">Timothy Duguid</persName>
+                <respStmt xml:id="smw-ps-rs">
+                    <resp xml:id="resp-3">Published privately online as part of Music Analytics project at the University of Glasgow</resp>
+                    <persName xml:id="resp-4">Lewis Paterson</persName>
+                    <persName xml:id="resp-5">Timothy Duguid</persName>
                 </respStmt>
             </pubStmt>
-            <seriesStmt>
-                <title>Music Analytics Project - Encoded Music of Mario Game Themes</title>
+            <seriesStmt xml:id="smw-ss">
+                <title xml:id="ss-t">Music Analytics Project - Encoded Music of Mario Game Themes</title>
                 <editor xml:id="e-1">Lewis Paterson</editor>
-                <contents>
-                    <contentItem>Super Mario Bros Theme</contentItem>
-                    <contentItem>Super Mario World Overworld Theme</contentItem>
-                    <contentItem>Super Mario 64 Main Theme</contentItem>
+                <contents xml:id="ss-contents">
+                    <contentItem xml:id="content-1">Super Mario Bros Theme</contentItem>
+                    <contentItem xml:id="content-2">Super Mario World Overworld Theme</contentItem>
+                    <contentItem xml:id="content-3">Super Mario 64 Main Theme</contentItem>
                 </contents>
             </seriesStmt>
-            <notesStmt>
-                <annot>The original Maestro Aamir transcription was acquired using the search feature on the MuseScore website</annot>
+            <notesStmt xml:id="smw-ns">
+                <annot xml:id="ns-annot-1">The original Maestro Aamir transcription was acquired using the search feature on the MuseScore website</annot>
             </notesStmt>
-            <sourceDesc>
-                <source>
-                    <titleStmt>
+            <sourceDesc xml:id="smw-sd">
+                <source xml:id="source">
+                    <titleStmt xml:id="sd-ts">
                         <title xml:id="t-3" authURI="https://vgmdb.net/album/533" authority="VGMdb">
                             Overworld BGM</title>
                         <editor xml:id="e-2" authURI="https://musescore.com/thenewmaestro/scores/51866">
@@ -76,9 +76,9 @@
                             Soichi Noriki
                         </arranger>
                     </titleStmt>
-                    <pubStmt>
-                        <distributor type="Online distribution" authURI="https://musescore.com/sheetmusic">MuseScore</distributor>
-                        <distributor type="Original distribution" authURI="https://vgmdb.net/album/533">Warner-Pioneer</distributor>
+                    <pubStmt xml:id="sd-ps">
+                        <distributor xml:id="dis-1" type="Online distribution" authURI="https://musescore.com/sheetmusic">MuseScore</distributor>
+                        <distributor xml:id="dis-2" type="Original distribution" authURI="https://vgmdb.net/album/533">Warner-Pioneer</distributor>
                     </pubStmt>
                 </source>
             </sourceDesc>
@@ -91,12 +91,12 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        <revisionDesc>
-            <change resp="Lewis Paterson">
-                <changeDesc>
-                    <p>Added multiple details to meiHead</p>
+        <revisionDesc xml:id="smw-rd">
+            <change xml:id="change-1" resp="Lewis Paterson">
+                <changeDesc xml:id="c1-cd">
+                    <p xml:id="c1-cd-p1">Added multiple details to meiHead</p>
                 </changeDesc>
-                <date>2nd November 2018</date>
+                <date xml:id="c1-date">2nd November 2018</date>
             </change>
         </revisionDesc>
     </meiHead>
